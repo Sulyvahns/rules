@@ -23,3 +23,7 @@ h2 {
     line-height: 30px;
     letter-spacing: .5px;
 }
+.card {
+    width: 420px;
+    height: 420;
+}
