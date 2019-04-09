@@ -1,13 +1,25 @@
-div {
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+.header {
     height: 100vh;
-    background-color: #4682B4;
+    background-color: rgba(255, 0, 0, .7);
     text-align: center;
+    color: #fff;
+    background-image: url(https://wallpapersmug.com/download/2560x1440/39b255/material_design_geometric_stock_dark_black.jpg);
+    background-size: cover;
+    background-position: center bottom;
 }
 h1 {
     font-size: 55px;
     line-height: 240px;
+    font-family: 'Anonymous Pro';
+    text-transform: uppercase;
 }
 h2 {
     font-size: 25px;
     line-height: 30px;
+    letter-spacing: .5px;
 }
